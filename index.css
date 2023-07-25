@@ -133,12 +133,47 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: aqua;
+    background-color: #3882F6;
+    align-items: center;
+    padding: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    min-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 75px;
 }
 
 .buttonc{
     background-color: #3882F6;
     color: white;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bold-call{
+    font-weight: bold;
+    font-size: large;
+}
+
+.action, .button{
+    color: white;
+}
+
+/* Copyright information */
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
     padding: 25px;
 }
+
+
 
